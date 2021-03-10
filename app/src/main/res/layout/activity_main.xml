@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startpage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:background="@android:color/transparent"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="9">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img500"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_500"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input500"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img200"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_200"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input200"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img100"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_100"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input100"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img50"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_50"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input50"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_20"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_10"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_5"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_2"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_1"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img0.50"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_0.50"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input0.50"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img0.20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_0.20"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input0.20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img0.10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_0.10"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input0.10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img0.05"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_0.05"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input0.05"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img0.02"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_0.02"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input0.02"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/img0.01"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:text="@string/txt_0.01"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/input0.01"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="Stencil"
+                        android:hint="@string/input_amount"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:textColor="@color/yellow"
+                        android:textColorHint="@color/white"
+                        android:textCursorDrawable="@color/yellow"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:background="@android:color/transparent"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="1">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <Button
+                        android:id="@+id/btn_total"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+
+                        android:text="@string/total"
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cash Counter</string>
+    <string name="txt_500">500</string>
+    <string name="txt_200">200</string>
+    <string name="txt_100">100</string>
+    <string name="txt_50">50</string>
+    <string name="txt_20">20</string>
+    <string name="txt_10">10</string>
+    <string name="txt_5">5</string>
+    <string name="txt_2">2</string>
+    <string name="txt_1">1</string>
+    <string name="txt_0.50">0.50</string>
+    <string name="txt_0.20">0.20</string>
+    <string name="txt_0.10">0.10</string>
+    <string name="txt_0.05">0.05</string>
+    <string name="txt_0.02">0.02</string>
+    <string name="txt_0.01">0.01</string>
+    <string name="total">TOTAL</string>
+    <string name="edit">EDIT</string>
+    <string name="new_calculation">NEW</string>
+    <string name="input_amount">Insert</string>
+    <string name="zero">0.0</string>
+    <string name="exit">EXIT</string>
+</resources>
